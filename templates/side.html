@@ -1,0 +1,27 @@
+<div class="tuijian">
+  <h2>栏目更新</h2>
+  <ol>
+  <{foreach from=$article_side key="key" item="item"}>
+    <li><span><strong><{$key+1}></strong></span><a href="article_deail.php?article_id=<{$item.article_id}>"><{$item.article_title}></a></li>
+  <{/foreach}>
+  </ol>
+</div>
+
+
+<div class="links">
+  <h2>友情链接</h2>
+  <ul>
+    <{foreach from=$link_side item="item"}>
+    <li style="line-height: 25px;font-size: 15px"><a href="<{$item.link_address}>" target="_blank"><{$item.link_name}></a></li>
+   <{/foreach}>
+  </ul>
+</div>
+
+<div class="flickr">
+  <h2>摄影作品</h2>
+  <ul>
+    <{foreach from=$photo_side item="item"}>
+    <li><a href="#"><img src="<{$item.photo_img}>"></a></li>
+    <{/foreach}>
+  </ul>
+</div>

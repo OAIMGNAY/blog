@@ -1,0 +1,66 @@
+#board{width: 1000px;margin: 0 auto;border-top: #000 1px solid; clear: both; overflow: hidden;}
+/*留言板*/
+.msgBoard{padding-top: 20px;width: 700px;display: inline-block;float:left;}
+.title1{font-size: 20px!Important;margin-bottom: 5px!Important;border-bottom: 3px solid #444;padding-bottom: 10px;}
+.entry-title{margin: 0 0 5px;font-size: 16px;font-weight: 700;line-height: 1.2;-ms-word-wrap: break-word;word-wrap: break-word;color: #DFDFDF;}
+.entry-content{word-break: normal; word-wrap: break-word;}
+.buy{background: url(../images/buy.png) no-repeat scroll 20px 20px ;background-size: 60px;border: 1px solid #dfdfdf;color: #DFDFDF;line-height: 24px;margin: 35px 0px;padding:25px 0 10px 0;position: relative;}
+.buy p{padding:12px 15px 12px 120px;font-size: 16px;}
+/*评论区*/
+.comment{width:100%;border-top: 1px dashed #444;padding-bottom:30px;}
+.comment h2{padding: 20px 5px 5px;color: #DFDFDF;}
+.comment p{padding-left: 10px;color:#666;}
+.comment div{padding:5px 0;}
+.comment form{padding: 20px 5px;}
+.comment span label{
+	font-family: 'Open Sans', sans-serif;
+	color: #c79c60;
+	display: block;
+	font-size: 1.5em;
+	font-weight: 800;
+	padding-bottom: 5px;
+}
+.comment input[type="text"], .comment textarea {
+	font-family: 'Open Sans', sans-serif;
+	background: #333;
+	border: 1px solid #555;
+	color: #DFDFDF;
+	padding: 8px;
+	display: block;
+	width: 98%;
+	outline: none;
+	-webkit-appearance: none;
+	text-transform: capitalize;
+}
+.comment textarea{
+	resize:none;
+	height:120px;		
+}
+.comment input[type="submit"]{
+	cursor:pointer;
+	-webkit-appearance: none;
+	color: #ffffff;
+	background: rgba(199,156,96,0.8);
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	padding: 12px 24px;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.comment input[type="submit"]:hover{
+	background: rgba(199,156,96,1);
+}
+
+/*留言板右边*/
+.boardRg{width: 250px;display: inline-block;float: left;margin-left: 40px;}
+.links,.visitors,.flickr{display: block;margin: 30px 0px;padding: 0;float: inherit;}
+.boardRg h2{color: #c79c60;font-size: 20px;}
+.boardRg a{line-height: 38px;}

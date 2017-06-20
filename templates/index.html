@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>博客首页</title>
+
+		<link href="static/css/styles.css" rel="stylesheet">
+		<link href="static/css/animation.css" rel="stylesheet">
+		<!--动画-->
+		<!-- 返回顶部调用 begin -->
+		<link href="static/css/lrtk.css" rel="stylesheet" />
+		<script type="text/javascript" src="static/js/jquery.js"></script>
+		<script type="text/javascript" src="static/js/js.js"></script>
+		<!-- 返回顶部调用 end-->
+
+	</head>
+	<body>
+		<{include file="header.html"}>
+		<!--header end-->
+		<div id="mainbody">
+			<div class="info">
+				<figure> <img src="<{$banner_info.article_img}>" alt="Panama Hat">
+					<figcaption><strong><{$banner_info.article_title}></strong><{$banner_info.article_content}></figcaption>
+				</figure>
+				<div class="card">
+					<div class="user_img"><img src="<{$personal.admin_img}>" /></div>
+					<div class="user_msg">
+						<h1>我的名片</h1>
+						<p> site：<{$personal.admin_site}></p>
+						<p>呢 称：<{$personal.admin_nickname}></p>
+						<p>Q &nbsp;Q：<{$personal.admin_qq}></p>
+						<p>Email：<{$personal.admin_email}></p>
+					</div>
+
+					<ul class="linkmore">
+						<li>
+							<a href="index.php" class="address" title="首页"></a>
+						</li>
+						<li>
+							<a href="guestbook.php" class="talk" title="留言版"></a>
+						</li>
+		
+						<li>
+							<a href="moodlist.php" class="heart" title="心情语录"></a>
+						</li>
+						<li>
+							<a href="link.php" class="photos" title="友情链接"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--info end-->
+			<div class="blogs">
+				<ul class="bloglist">
+				<{foreach from=$new_article item="item"}>
+					<li>
+						<div class="arrow_box">
+							<div class="ti"></div><div class="ci"></div>
+							<h2 class="title"><a href="article_deail.php?article_id=<{$item.article_id}>" target="_blank"><{$item.article_title}></a></h2>
+							<ul class="textinfo">
+								<if $item.article_img neq ''>
+								<a href="article_deail.php?article_id=<{$item.article_id}>"><img src="<{$item.article_img}>"></a>
+								</if>
+								<p><{$item.article_desc}></p>
+							</ul>
+							<ul class="details">
+								<li class="likes">
+									<a href="article_deail.php?article_id=<{$item.article_id}>">阅读详情</a>
+								</li>
+								<li class="icon-time">
+									<a href="#"><{$item.article_time}></a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				<{/foreach}>	
+				</ul>
+				<!--bloglist end-->
+				<aside>
+					<{include file="side.html"}>
+					
+					<div class="viny">
+						<dl>
+							<dt class="art"><img src="static/images/artwork.png" alt="专辑"></dt>
+							<dd class="icon-song"><span></span>风の住む街</dd>
+							<dd class="icon-artist"><span></span>演唱者：矶村由纪子</dd>
+							<dd class="icon-album"><span></span>所属专辑：《风居住的街道》</dd>
+							<dd class="icon-like"><span></span>
+								<a href="/">喜欢</a>
+							</dd>
+							<dd class="music">
+								<audio src="static/images/风居住的街道.mp3" controls></audio>
+							</dd>
+							<!--也可以添加loop属性 音频加载到末尾时，会重新播放-->
+						</dl>
+					</div>
+				</aside>
+			</div>
+			<!--blogs end-->
+		</div>
+		<!--mainbody end-->
+		<footer>
+			<div class="footer-bottom">
+				<p>Copyright 2017 Design by <a href="http://www.yangqq.com">My-Blog</a></p>
+			</div>
+		</footer>
+
+	
+<!-- 回顶部 -->
+<div id="tbox"><a id="gotop" href="javascript:void(0)"></a> </div>
+<!-- 代码结束 -->
+</body>
+</html>

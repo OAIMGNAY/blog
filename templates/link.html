@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="">
+<title>My-Blog</title>
+<link href="static/css/styles.css" rel="stylesheet">
+<link href="static/css/view.css" rel="stylesheet">
+<!-- 返回顶部调用 begin -->
+<link href="static/css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="static/js/jquery.js"></script>
+<script type="text/javascript" src="static/js/js.js"></script>
+
+</head>
+<body>
+<{include file="header.html"}>
+<!--header end-->
+<div class="link_main">
+	<div class="link_nav">
+	<h3>这是一个展示友情链接和常去的网站链接页面！如要申请友链，请在留言板说明！</h3>
+	</div>
+	
+	<div class="page_link">
+	<ul>
+		<{foreach from=$link_list item="item"}>
+		<li class="sweepr" >
+			<div class="site_t">
+			<a href="<{$item.link_address}>" title="<{$item.link_desc}>" target="_blank"><{$item.link_name}></a>
+			</div>
+			<p><{$item.link_desc}></p>
+		</li>
+		<{/foreach}>
+	</ul>
+	</div>
+</div>	
+	
+<div style="clear: both;"></div>
+<!--mainbody end-->
+<footer>
+  <div class="footer-bottom">
+    <p>Copyright 2013 Design by <a href="http://www.yangqq.com">My-Blog</a></p>
+  </div>
+</footer>
+<!-- jQuery仿腾讯回顶部和建议 代码开始 -->
+<div id="tbox"><a id="gotop" href="javascript:void(0)"></a> </div>
+<!-- 代码结束 -->
+</body>
+</html>

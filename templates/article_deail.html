@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My-Blog</title>
+<link href="static/css/styles.css" rel="stylesheet">
+<link href="static/css/view.css" rel="stylesheet">
+<!-- 返回顶部调用 begin -->
+<link href="static/css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="static/js/jquery.js"></script>
+<script type="text/javascript" src="static/js/js.js"></script>
+<!-- 返回顶部调用 end-->
+
+</head>
+<body>
+<{include file="header.html"}>
+
+<div id="mainbody">
+  <div class="blogs">
+    <div id="index_view">
+      
+      <h1 class="c_titile"><{$article_deail.article_title}></h1>
+      <p class="box">发布时间：<{$article_deail.article_time|date_format:"%Y-%m-%d"}><span>编辑：<{$article_deail.article_author}></span></p>
+      <ul>
+        <{$article_deail.article_content}>
+      </ul>
+      <div class="share"> 
+
+        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <span class="bds_more">分享到：</span> <a class="bds_qzone"></a> <a class="bds_tsina"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <a class="shareCount"></a> </div>
+        <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6574585" ></script> 
+        <script type="text/javascript" id="bdshell_js"></script> 
+        <script type="text/javascript">
+					document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+				</script> 
+
+      </div>
+      <div class="otherlink">
+      </div>
+    </div>
+
+    <aside>
+      <div class="search">
+        <form class="searchform" method="get" action="#">
+          <input type="text" name="s" value="Search" onfocus="this.value=''" onblur="this.value='Search'">
+        </form>
+      </div>
+      <{include file="side.html"}>
+    </aside>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-bottom">
+    <p>Copyright 2017 Design by <a href="http://www.yangqq.com">My-Blog</a></p>
+  </div>
+</footer>
+
+<div id="tbox"><a id="gotop" href="javascript:void(0)"></a> </div>
+
+</body>
+</html>

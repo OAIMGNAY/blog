@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>添加留言</title>  
+    <link rel="stylesheet" href="../static/admin/css/pintuer.css">
+    <link rel="stylesheet" href="../static/admin/css/admin.css">
+    <script src="../static/admin/js/jquery.js"></script>
+    <script src="../static/admin/js/pintuer.js"></script>  
+    <!--多行编辑器插件-->
+    <link rel="stylesheet" href="../include/kindeditor/themes/default/default.css" />
+    <script src="../include/kindeditor/kindeditor-min.js"></script>
+    <script src="../include/kindeditor/lang/zh_CN.js"></script>
+    <script>
+      var editor;
+       KindEditor.ready(function(K) {
+          editor = K.create('textarea[name="guestB_reply"]', {
+          allowFileManager : true
+        });
+      });
+    </script>
+     <!--多行编辑器插件  End -->
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong><span class="icon-pencil-square-o"></span> 添加留言</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="guestB_add.php" enctype="multipart/form-data">
+      <div class="form-group">
+        <div class="label">
+          <label>留言者：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="guestB_name" value="" data-validate="required:请输入名称"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>留言者邮箱：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="guestB_email" value=""/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>留言者网站：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="guestB_site" value=""/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>留言内容</label>
+        </div>
+        <div class="field">
+          <textarea class="input" name="guestB_cont" cols="10" rows="5"></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>留言时间：</label>
+        </div>
+        <div class="field">
+          <input type="date" class="input w50" name="guestB_time" value="" data-validate="required:请选择时间"/>
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>审核状态：</label>
+        </div>
+        <div class="field">
+          <input type="radio" name="guestB_state" checked="checked" value="0">未通过审核
+          <input type="radio" name="guestB_state" value="1">已通过审核
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>回复内容：</label>
+        </div>
+        <div class="field">
+          <textarea class="input" name="guestB_reply" cols="10" rows="5"></textarea>
+          <div class="tips"></div>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body></html>

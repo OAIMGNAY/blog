@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, admin-scalable=no" />
+<meta name="renderer" content="webkit">
+<title></title>
+<link rel="stylesheet" href="../static/admin/css/pintuer.css">
+<link rel="stylesheet" href="../static/admin/css/admin.css">
+<script src="../static/admin/js/jquery.js"></script>
+<script src="../static/admin/js/pintuer.js"></script>
+</head>
+<body>
+<form method="get" action="photo_list.php" id="listform" name="photo_form">
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder">图片信息列表</strong></div>
+    <div class="padding border-bottom">
+      <ul class="search" style="padding-left:10px;">
+        <li> <a class="button border-main icon-plus-square-o" href="photo_add.php"> 添加图片信息</a> </li>
+        <li>
+          <input type="text" placeholder="请输入图片分类名称搜索" value="<{$keywords}>" onchange="javascript:document.photo_form.submit()" name="keywords" class="input" style="width:200px; line-height:17px;display:inline-block"/>
+          <button class="button border-main icon-search" type="submit"> 搜索</button>
+        </li>
+      </ul>
+    </div>
+    <table class="table table-hover text-center">
+      <tr>
+        <th style="text-align:left; padding-left:20px;">ID</th>
+        <th >图片</th>
+        <th >分类</th>
+        <th >添加时间</th>
+        <th width="20%">操作</th>
+      </tr>
+        <{foreach from=$photo_list item="item"}>
+        <tr>
+          <td style="text-align:left; padding-left:20px;"><input type="checkbox" name="id[]" value="<{$item.photo_id}>" />
+          <{$item.photo_id}> 
+          </td>
+          <td width="10%"><img src="../<{$item.photo_img}>" alt="" width="100" /></td>
+          <td><{$item.photo_cate}></td>
+          <td><{$item.photo_time|date_format:'%Y-%m-%d'}></td>
+          <td>
+            <div class="button-group">
+              <a class="button border-main" href="photo_edit.php?photo_id=<{$item.photo_id}>"><span class="icon-edit"></span> 修改</a> 
+              <a class="button border-red" href="javascript:void(0)" onclick="return del(<{$item.photo_id}>)"><span class="icon-trash-o"></span> 删除</a> 
+            </div>
+          </td>
+        </tr>
+        <{/foreach}>
+
+
+      <tr>
+        <td style="text-align:left; padding:19px 0;padding-left:20px;"><input type="checkbox" id="checkall"/>
+          全选 </td>
+        <td colspan="7" style="text-align:left;padding-left:20px;">
+        	<a href="javascript:void(0)" class="button border-red icon-trash-o" style="padding:5px 15px;" onclick="DelSelect()"> 删除</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="8"><div class="pagelist"><{$page_str}></div></td>
+      </tr>
+    </table>
+  </div>
+</form>
+<script type="text/javascript">
+	//单个删除
+	function del(photo_id){
+		if(confirm("您确定要删除吗?")){
+			window.location.href = "photo_list.php?photo_id="+photo_id;
+		}
+	}
+
+	//全选
+	$("#checkall").click(function(){ 
+	  $("input[name='id[]']").each(function(){
+		  if (this.checked) {
+			  this.checked = false;
+		  }
+		  else {
+			  this.checked = true;
+		  }
+	  });
+	})
+
+	//批量删除
+	function DelSelect(){
+		var Checkbox=false;
+		 $("input[name='id[]']").each(function(){
+		  if (this.checked==true) {		
+			Checkbox=true;	
+		  }
+		});
+		if (Checkbox){
+			var t=confirm("您确认要删除选中的内容吗？");
+			if (t==false) return false;		
+			$("#listform").submit();
+		}
+		else{
+			alert("请选择您要删除的内容!");
+			return false;
+		}
+	}
+
+	
+
+
+</script>
+</body>
+</html>

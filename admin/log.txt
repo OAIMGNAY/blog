@@ -1,0 +1,4412 @@
+[2017/05/03 20:29:30]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/07 20:44:26]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/07 20:44:28]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:44:28]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:44:34]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 20:44:34]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:44:39]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:44:39]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:44:41]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 20:47:51]  SELECT COUNT(*) AS c FROM pre_photograph WHERE 1 ; ERROR: 0 
+[2017/05/07 20:47:51]  SELECT * FROM pre_photograph WHERE 1 ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:04]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:04]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:14]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:14]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:19]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:19]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:21]  SELECT COUNT(*) AS c FROM pre_photograph WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:21]  SELECT * FROM pre_photograph WHERE 1 ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:24]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:24]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:29]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:29]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 10,5 ; ERROR: 0 
+[2017/05/07 20:48:35]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:35]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/07 20:48:43]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:43]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:48:50]  SELECT * FROM pre_admin WHERE admin_id=1 ; ERROR: 0 
+[2017/05/07 20:48:56]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/07 20:48:56]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:49:03]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:49:03]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:49:05]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 20:49:05]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:49:07]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:49:07]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:49:14]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/07 20:49:14]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:49:17]  SELECT COUNT(*) AS c FROM pre_photograph WHERE 1 ; ERROR: 0 
+[2017/05/07 20:49:17]  SELECT * FROM pre_photograph WHERE 1 ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:50:28]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 20:50:28]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:50:32]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:50:32]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:52:07]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:52:07]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:52:41]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:52:41]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:52:48]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:52:48]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:53:38]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:53:38]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:54:06]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:54:06]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:55:35]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:55:35]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:55:54]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:55:54]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:56:37]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:56:37]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:56:40]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 20:56:40]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:56:45]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:56:45]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:59:05]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:59:05]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 20:59:42]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 20:59:42]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:00:09]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:00:09]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:04:38]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:04:38]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:04:38]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:05:18]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:06:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:06:00]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:06:00]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:06:26]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:06:26]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:06:26]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:07:05]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:07:05]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:07:05]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:07:07]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:07:07]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:07:07]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:12:04]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:12:04]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:12:04]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:12:08]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:12:29]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:12:29]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:12:29]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:12:32]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:13:16]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:13:16]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:13:16]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:13:18]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:13:55]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:02]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:02]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:02]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:14:04]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:25]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:25]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:25]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:14:29]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:29]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:29]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:14:36]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:36]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:36]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:14:39]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:39]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:39]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:14:43]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:43]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:14:43]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:16:13]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:16:14]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:16:14]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:16:18]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:14]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:14]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:14]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:17:36]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:52]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:52]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:52]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:17:55]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:55]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:17:55]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:18:29]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:18:29]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:18:29]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:18:31]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:18:31]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/07 21:18:31]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:18:44]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:18:44]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:18:44]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:18:48]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:18:48]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 2 ; ERROR: 0 
+[2017/05/07 21:18:48]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 2 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:19:15]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:19:15]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:19:15]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:19:17]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:19:17]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/07 21:19:17]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:19:21]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:19:21]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 2 ; ERROR: 0 
+[2017/05/07 21:19:21]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 2 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:19:41]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:19:41]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:19:41]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:20:02]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:02]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:02]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:20:17]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:17]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:17]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:20:19]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:19]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/07 21:20:19]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:20:22]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:22]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 2 ; ERROR: 0 
+[2017/05/07 21:20:22]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 2 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:20:59]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:59]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:20:59]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:21:02]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:21:02]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/07 21:21:02]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:22:22]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:22:22]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:22:22]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:22:24]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:22:24]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/07 21:22:24]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:22:55]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:22:55]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:22:55]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:22:57]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:22:57]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/07 21:22:57]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:00]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/07 21:23:00]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:04]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:04]  SELECT COUNT(*) AS c FROM pre_article WHERE article_title = 'ytgrfedw' ; ERROR: 0 
+[2017/05/07 21:23:04]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_title = 'ytgrfedw' ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:10]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:10]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:10]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:14]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:14]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/07 21:23:14]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:37]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:37]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:37]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:39]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:39]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/07 21:23:39]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:48]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:48]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:23:53]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/07 21:23:53]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:24:01]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/07 21:24:01]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:24:03]  SELECT COUNT(*) AS c FROM pre_photograph WHERE 1 ; ERROR: 0 
+[2017/05/07 21:24:03]  SELECT * FROM pre_photograph WHERE 1 ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:24:07]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/07 21:24:07]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/07 21:24:25]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/07 21:24:25]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/08 21:00:43]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/08 21:00:46]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/08 21:00:46]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/08 21:00:46]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:03:47]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 00:03:51]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:03:51]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:03:51]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:03:52]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:03:52]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:03:52]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:02]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:02]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/09 00:04:02]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:22]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:22]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:22]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:31]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:31]  SELECT COUNT(*) AS c FROM pre_article WHERE article_title = 'css技巧以及经验总结' ; ERROR: 0 
+[2017/05/09 00:04:31]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_title = 'css技巧以及经验总结' ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:36]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:37]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time > 1494432000 ; ERROR: 0 
+[2017/05/09 00:04:37]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time > 1494432000 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:41]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:41]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494432000 AND 1495123200 ; ERROR: 0 
+[2017/05/09 00:04:41]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494432000 AND 1495123200 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:47]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:47]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494432000 AND 1494604800 ; ERROR: 0 
+[2017/05/09 00:04:47]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494432000 AND 1494604800 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:51]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:51]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494604800 AND 1494604800 ; ERROR: 0 
+[2017/05/09 00:04:51]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494604800 AND 1494604800 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:04:57]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:04:57]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494604800 AND 1494604800 ; ERROR: 0 
+[2017/05/09 00:04:57]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494604800 AND 1494604800 ORDER BY art.article_id DESC  LIMIT 10,5 ; ERROR: 0 
+[2017/05/09 00:05:01]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:05:01]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494604800 AND 1494604800 ; ERROR: 0 
+[2017/05/09 00:05:01]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494604800 AND 1494604800 ORDER BY art.article_id DESC  LIMIT 20,5 ; ERROR: 0 
+[2017/05/09 00:05:07]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:05:07]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494604800 AND 1494604800 ; ERROR: 0 
+[2017/05/09 00:05:07]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494604800 AND 1494604800 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:05:09]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:05:09]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:05:14]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:05:14]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:05:14]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:05:16]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:06:34]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:06:34]  insert into `pre_article`(`article_title`,`article_desc`,`article_content`,`article_time`,`artcate_id`) value('ytredw','jhgfdsa','<p>
+	kjhgbfvdscsdffbvhet
+</p>
+<p>
+	kjhgfdcxz<strong>;lkjhgfvdcs</strong>
+</p>
+<p>
+	;hgfdcsxza
+</p>','1493827200','4') ; ERROR: 0 
+[2017/05/09 00:06:37]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:06:37]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:06:37]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:06:40]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:06:40]  SELECT * FROM pre_article WHERE article_id = 30 ; ERROR: 0 
+[2017/05/09 00:07:05]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:05]  SELECT * FROM pre_article WHERE article_id = 30 ; ERROR: 0 
+[2017/05/09 00:07:05]  UPDATE pre_article SET article_title='ytredw',article_desc='jhgfdsa',article_content='<p>
+	<span style="color:#E56600;">kjhgbfvdscsdffbvhet</span> 
+</p>
+<p>
+	kjhgfdcxz<strong>;lkjhgfvdcs</strong> 
+</p>
+<h1>
+	;hgfdcsxza
+</h1>',article_time='1493827200',artcate_id='4' WHERE article_id=30 ; ERROR: 0 
+[2017/05/09 00:07:08]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:08]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:08]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:07:38]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:38]  DELETE FROM pre_article WHERE article_id=30 ; ERROR: 0 
+[2017/05/09 00:07:41]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:41]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:41]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:07:44]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:44]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:07:48]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:48]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:07:57]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/09 00:07:57]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:02]  SELECT COUNT(*) AS c FROM pre_photograph WHERE 1 ; ERROR: 0 
+[2017/05/09 00:08:02]  SELECT * FROM pre_photograph WHERE 1 ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:05]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/09 00:08:05]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:07]  SELECT COUNT(*) AS c FROM pre_photograph WHERE 1 ; ERROR: 0 
+[2017/05/09 00:08:07]  SELECT * FROM pre_photograph WHERE 1 ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:20]  SELECT COUNT(*) AS c FROM pre_photograph WHERE photo_cate = '分类2' ; ERROR: 0 
+[2017/05/09 00:08:20]  SELECT * FROM pre_photograph WHERE photo_cate = '分类2' ORDER BY photo_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:23]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/09 00:08:23]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:29]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/09 00:08:29]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 00:08:45]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/09 00:08:45]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:05:59]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 01:06:02]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:06:02]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:06:02]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:10:01]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 01:10:03]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:10:03]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:10:03]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:10:10]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:11:22]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:11:22]  insert into `pre_article`(`article_title`,`article_desc`,`article_content`,`article_time`,`artcate_id`) value('测试测试','测试测试测试测试测试测试测试测试测试测试测试测试','<p>
+	测试测试测试测试测<span style="background-color:#E53333;">试测试测试测试</span><span style="background-color:#E53333;">测试测试</span><span style="background-color:#E53333;">测试测试</span><span style="background-color:#E53333;">测试测</span>试测试测试测试测试测试测试测试测试
+</p>
+<h2>
+	测试测试<strong>测试测试</strong><strong>测试测试测试测试</strong><strong>测试测试</strong>测试测试测试测试测<u>试测试</u><u>测试测试</u><u>测试测试</u><u>测试</u>测试测试<em><strong>测试</strong></em><em><strong>测试测试测试测试</strong></em><em><strong>测试测试测试测试</strong></em><em><strong>测试测试</strong></em><em><strong>测试测试</strong></em><em><strong>测试测试</strong></em><em><strong>测试测试</strong></em><em><strong>测试测试</strong></em><em><strong>测试测试</strong></em><em><strong>测试测试</strong></em><em><strong></strong></em>
+</h2>','1494259200','4') ; ERROR: 0 
+[2017/05/09 01:11:24]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:11:24]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:11:24]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:14:38]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 01:14:40]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:14:40]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:14:40]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:14:53]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:14:53]  DELETE FROM pre_article WHERE article_id=31 ; ERROR: 0 
+[2017/05/09 01:14:55]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:14:55]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:14:55]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:15:01]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:01]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:15:16]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:16]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:15:16]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1492617600',artcate_id='4' WHERE article_id=28 ; ERROR: 0 
+[2017/05/09 01:15:19]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:19]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:19]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:15:25]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:25]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:15:37]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:38]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:15:38]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1492272000',artcate_id='2' WHERE article_id=27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:15:43]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:43]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:15:43]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:16:03]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:03]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:16:16]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:16]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:16:16]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1492185600',artcate_id='2' WHERE article_id=27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:16:19]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:19]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:19]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:16:25]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:25]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:25]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 01:16:32]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:32]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:32]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:16:44]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:44]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:16:59]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:16:59]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:16:59]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1492099200',artcate_id='4' WHERE article_id=27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:17:01]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:01]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:01]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:18]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:18]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:17:24]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:24]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:17:24]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1494259200',artcate_id='4' WHERE article_id=28 ; ERROR: 0 
+[2017/05/09 01:17:25]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:25]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:25]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:32]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:32]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:35]  SELECT * FROM pre_artcate WHERE artcate_id = 8 ; ERROR: 0 
+[2017/05/09 01:17:38]  SELECT * FROM pre_artcate WHERE artcate_id = 8 ; ERROR: 0 
+[2017/05/09 01:17:38]  UPDATE pre_artcate SET artcate_name='banner1' WHERE artcate_id = 8 ; ERROR: 0 
+[2017/05/09 01:17:41]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:41]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:43]  SELECT * FROM pre_artcate WHERE artcate_id = 8 ; ERROR: 0 
+[2017/05/09 01:17:47]  SELECT * FROM pre_artcate WHERE artcate_id = 8 ; ERROR: 0 
+[2017/05/09 01:17:47]  UPDATE pre_artcate SET artcate_name='banner' WHERE artcate_id = 8 ; ERROR: 0 
+[2017/05/09 01:17:49]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:49]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:51]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:51]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:51]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:54]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 01:17:54]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:17:57]  SELECT * FROM pre_guestbook WHERE guestB_id = 8 ; ERROR: 0 
+[2017/05/09 01:18:04]  SELECT * FROM pre_guestbook WHERE guestB_id = 8 ; ERROR: 0 
+[2017/05/09 01:18:04]  UPDATE pre_guestbook SET guestB_name='ERTYUI',guestB_email='12345678@qq.com',guestB_cont='SDFGHJK',guestB_site='',guestB_time='1492185600',guestB_state='0',guestB_reply='' WHERE guestB_id=8 ; ERROR: 0 
+[2017/05/09 01:18:06]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 01:18:06]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:18:20]  DELETE FROM pre_guestbook WHERE guestB_id IN (8,7,6) ; ERROR: 0 
+[2017/05/09 01:18:22]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 01:18:22]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:20:24]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:20:24]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:20:24]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:20:26]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:20:26]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:20:34]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:20:34]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:21:08]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:21:08]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:21:08]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:21:11]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:21:11]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:21:17]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:21:17]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:15]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:15]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:15]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:23:17]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:17]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:22]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:22]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:22]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1525795200',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:25]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:25]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:25]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:23:31]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:31]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:42]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:42]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:42]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1492704000',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:23:45]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:45]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:45]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:23:50]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:50]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:23:58]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:23:58]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:23:58]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1492444800',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:24:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:00]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:00]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:24:09]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:09]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:09]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 01:24:14]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:14]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:14]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:24:20]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:20]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:24:26]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:26]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:24:26]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1494432000',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:24:29]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:29]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:29]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:24:36]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:36]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:24:42]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:42]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:24:42]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1491494400',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:24:44]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:44]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:44]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:24:47]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:47]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:24:58]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:24:58]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:24:58]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1492099200',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:25:01]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:25:01]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:25:01]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:25:04]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:25:04]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:25:16]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:25:16]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:25:16]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1526140800',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:25:19]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:25:19]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:25:19]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:26:37]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:26:37]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:26:37]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:26:39]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:26:39]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:26:53]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:26:53]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 01:26:53]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1491580800',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 01:26:56]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:26:56]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:26:56]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 01:27:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:27:00]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:27:05]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:27:05]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:27:05]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1491580800',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 01:27:07]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 01:27:07]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 01:27:07]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:13:04]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 08:13:07]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:07]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:07]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:13:08]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:08]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:08]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:13:15]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:15]  SELECT * FROM pre_article WHERE article_id = 25 ; ERROR: 0 
+[2017/05/09 08:13:33]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:33]  SELECT * FROM pre_article WHERE article_id = 25 ; ERROR: 0 
+[2017/05/09 08:13:33]  UPDATE pre_article SET article_title='某一人似曾相识、某一刻似曾经历',article_desc='有时候会有这样的错觉：“某一人似曾相识、某一刻似曾经历”，这样奇特的感受大概你也有过。心理学称之为“即视现象”，是记忆中太多杂乱信息制造出的一种潜意识矛盾冲突。
+阳光下的影子，不再是你，秋天里的风，已经感觉不到你的气息，甚至让我有一种错觉，你是否来过，但在这里，始终找不到一丝你存在过的证据。',article_content='有时候会有这样的错觉：“某一人似曾相识、某一刻似曾经历”，这样奇特的感受大概你也有过。心理学称之为“即视现象”，是记忆中太多杂乱信息制造出的一种潜意识矛盾冲突。
+阳光下的影子，不再是你，秋天里的风，已经感觉不到你的气息，甚至让我有一种错觉，你是否来过，但在这里，始终找不到一丝你存在过的证据。',article_time='1491494400',artcate_id='6' WHERE article_id = 25 ; ERROR: 0 
+[2017/05/09 08:13:35]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:35]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:35]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:13:40]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:40]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:40]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 08:13:43]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:43]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:43]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:13:45]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:45]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 08:13:54]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:54]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 08:13:54]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1491667200',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 08:13:56]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:56]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:13:56]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:14:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:00]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:04]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:04]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:04]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1491667200',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:06]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:06]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:06]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:14:17]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:17]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 08:14:22]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:22]  SELECT * FROM pre_article WHERE article_id = 27 ; ERROR: 0 
+[2017/05/09 08:14:22]  UPDATE pre_article SET article_title='css技巧以及经验总结1',article_desc='CSS3制作文字、图片倒影需要涉及到使用CSS3.0新属性之box-reflect。box-reflect属性目前仅在Chrome、Safari和Opera浏览器下支持，但这并不影响我们来学习这个属性的应用。',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a> 
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a> 
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong> 
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong> 
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong> 
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong> 
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong> 
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong> 
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong> 
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong> 
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong> 
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#0009;filter:alpha(opacity=20)9;}
+	</p>
+	<p>
+		.outer .inner{position:relative9;}<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span> 
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong> 
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span> 
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		<br />
+	</p>
+	<table id="test" cellspacing="1">
+		<tbody>
+			<tr>
+				<th>
+					姓名
+				</th>
+				<td>
+					Joy Du
+				</td>
+			</tr>
+			<tr>
+				<th>
+					年龄
+				</th>
+				<td>
+					26
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong> 
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong> 
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1491494400',artcate_id='2' WHERE article_id = 27 ; ERROR:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<' at line 1
+[2017/05/09 08:14:24]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:24]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:24]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:14:35]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:35]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:41]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:41]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:41]  UPDATE pre_article SET article_title='网站运营....网站运营......Q',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1491667200',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:44]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:44]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:44]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:14:46]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:46]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:52]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:52]  SELECT * FROM pre_article WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:52]  UPDATE pre_article SET article_title='网站运营....网站运营......',article_desc='网站运营网站运营......',article_content='<p>
+	网站运营....网站运营......
+</p>',article_time='1491667200',artcate_id='4' WHERE article_id = 28 ; ERROR: 0 
+[2017/05/09 08:14:54]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:54]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:14:54]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:14:59]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:16:52]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:16:52]  insert into `pre_article`(`article_title`,`article_desc`,`article_content`,`article_time`,`artcate_id`,`article_img`) value('JHBTGVFCDXSAZ','SWDFEGRHJKLKBNV','<h1>
+	IUJYHTGRFEDWS
+</h1>
+<p>
+	<span style="color:#E56600;">JUYHTGRFEDWSQ</span>
+</p>
+<p>
+	<strong>YTBRVECWDXSQA</strong>
+</p>
+<p>
+	YTREWQ
+</p>','1494259200','4','uploads/201705090816521690.jpg') ; ERROR: 0 
+[2017/05/09 08:16:54]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:16:54]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:16:54]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:17:29]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:29]  SELECT * FROM pre_article WHERE article_id = 32 ; ERROR: 0 
+[2017/05/09 08:17:45]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:45]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:45]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:17:47]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:50]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:50]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:50]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:17:52]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:52]  SELECT * FROM pre_article WHERE article_id = 32 ; ERROR: 0 
+[2017/05/09 08:17:58]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:17:58]  SELECT * FROM pre_article WHERE article_id = 32 ; ERROR: 0 
+[2017/05/09 08:17:58]  UPDATE pre_article SET article_title='JHBTGVFCDXSAZ',article_desc='SWDFEGRHJKLKBNV',article_content='<h1>
+	IUJYHTGRFEDWS
+</h1>
+<p>
+	<span style="color:#E56600;">JUYHTGRFEDWSQ</span> 
+</p>
+<p>
+	<strong>YTBRVECWDXSQA</strong> 
+</p>
+<p>
+	YTREWQ
+</p>',article_time='1494000000',artcate_id='4' WHERE article_id = 32 ; ERROR: 0 
+[2017/05/09 08:18:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:00]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:00]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:18:07]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:07]  DELETE FROM pre_article WHERE article_id=32 ; ERROR: 0 
+[2017/05/09 08:18:09]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:09]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:09]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:18:12]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:12]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:12]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 25,5 ; ERROR: 0 
+[2017/05/09 08:18:15]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:15]  SELECT * FROM pre_article WHERE article_id = 2 ; ERROR: 0 
+[2017/05/09 08:18:21]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:21]  SELECT * FROM pre_article WHERE article_id = 2 ; ERROR: 0 
+[2017/05/09 08:18:21]  UPDATE pre_article SET article_title='趁我们都还年轻',article_desc='趁我们都还年轻,多走几步路，多欣赏下沿途的风景，不要急于抵达目的地而错过了流年里温暖的人和物；趁我们都还年轻，多说些浪漫的话语，多做些幼稚的事情，不要嫌人笑话错过了生命中最美好的片段和场合；趁我们都还年轻，把距离缩短，把时间延长。趁我们都还年轻，多做些我们想要做的任何事...',article_content='',article_time='1493913600',artcate_id='6' WHERE article_id = 2 ; ERROR: 0 
+[2017/05/09 08:18:24]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:24]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:24]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:18:27]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:27]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:27]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 25,5 ; ERROR: 0 
+[2017/05/09 08:18:37]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:37]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:37]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 15,5 ; ERROR: 0 
+[2017/05/09 08:18:40]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:40]  SELECT * FROM pre_article WHERE article_id = 11 ; ERROR: 0 
+[2017/05/09 08:18:48]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:48]  SELECT * FROM pre_article WHERE article_id = 11 ; ERROR: 0 
+[2017/05/09 08:18:48]  UPDATE pre_article SET article_title='css技巧以及经验总结',article_desc='1、如何清除图片下方出现几像素的空白间隙？2、如何让文本垂直对齐文本输入框？3、如何让单行文本在容器内垂直居中？4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？',article_content='<div class="shili">
+	<p>
+		<a href="/jstt/bj/2013-08-03/549.html" target="_blank"><strong><span style="color:#000000;">html css 十一条网页设计经典实用的代码片段</span></strong></a>
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/85.html" target="_blank"><strong><span style="color:#000000;">Div+CSS 规则整理 以及注意问题</span></strong></a>
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/88.html" target="_blank"><strong><span style="color:#000000;">10条HTML代码编写技巧</span></strong></a>
+	</p>
+	<p>
+		<a href="/jstt/bj/2013-06-06/90.html" target="_blank"><strong><span style="color:#000000;">CSS常见的问题和技巧总结</span></strong></a>
+	</p>
+</div>
+<p>
+	<strong>1、如何清除图片下方出现几像素的空白间隙？</strong>
+</p>
+<p class="shili">
+	方法1：img{display:block;} &nbsp;方法2： img{vertical-align:top;}
+</p>
+<p>
+	<strong>2、如何让文本垂直对齐文本输入框？</strong>
+</p>
+<p class="shili">
+	input{vertical-align:middle;}
+</p>
+<p>
+	<strong>3、如何让单行文本在容器内垂直居中？</strong>
+</p>
+<p class="shili">
+	#test{height:25px;line-height:25px;}
+</p>
+<p>
+	/* 只需设置文本的行高等于容器的高度即可 */
+</p>
+<p>
+	<strong>4、如何让超链接访问后和访问前的颜色不同且访问后仍保留hover和active效果？</strong>
+</p>
+<div class="shili">
+	<p>
+		a:link{color:#03c;}
+	</p>
+	<p>
+		a:visited{color:#666;}
+	</p>
+	<p>
+		a:hover{color:#f30;}
+	</p>
+	<p>
+		a:active{color:#c30;}
+	</p>
+	<p>
+		/* 按L-V-H-A的顺序设置超链接样式即可，可速记为LoVe（喜欢）HAte（讨厌）*/
+	</p>
+</div>
+<p>
+	<strong>5、如何使文本溢出边界不换行强制在一行内显示？</strong>
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;}
+</p>
+<p>
+	/* 设置容器的宽度和white-space为nowrap即可，其效果类似标签 */
+</p>
+<p>
+	<strong>6、如何使文本溢出边界显示为省略号？</strong>
+</p>
+<p class="shili">
+	#test{width:150px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+</p>
+<p>
+	/* 首先需设置将文本强制在一行内显示，然后将溢出的文本通过overflow:hidden截断，并以text-overflow:ellipsis方式将截断的文本显示为省略号。 */
+</p>
+<p>
+	<strong>7、如何使连续的长字符串自动换行？</strong>
+</p>
+<p class="shili">
+	#test{width:150px;word-wrap:break-word;}
+</p>
+<p>
+	/* word-wrap的break-word值允许单词内换行 */
+</p>
+<p>
+	<strong>8、如何清除浮动？</strong>
+</p>
+<p>
+	方法1：
+</p>
+<p class="shili">
+	#test{clear:both;}
+</p>
+<p>
+	/* #test为浮动元素的下一个兄弟元素 */
+</p>
+<p>
+	方法2：
+</p>
+<p class="shili">
+	#test{display:block;zoom:1;overflow:hidden;}
+</p>
+<p>
+	/* #test为浮动元素的父元素。zoom:1也可以替换为固定的width或height */
+</p>
+<p>
+	方法3：
+</p>
+<div class="shili">
+	<p>
+		#test{zoom:1;}
+	</p>
+	<p>
+		#test:after{display:block;clear:both;visibility:hidden;height:0;content:'';}
+	</p>
+	<p>
+		/* #test为浮动元素的父元素 */
+	</p>
+</div>
+<p>
+	<strong>9、如何让未知尺寸的图片在已知宽高的容器内水平垂直居中？</strong>
+</p>
+<div class="shili">
+	<p>
+		#test{display:table-cell;*display:block;*position:relative;width:200px;height:200px;text-align:center;vertical-align:middle;}
+	</p>
+	<p>
+		#test p{*position:absolute;*top:50%;*left:50%;margin:0;}
+	</p>
+	<p>
+		#test p img{*position:relative;*top:-50%;*left:-50%;vertical-align:middle;}
+	</p>
+	<p>
+		/* #test是img的祖父节点，p是img的父节点。Know More：未知尺寸的图片如何水平垂直居中 */
+	</p>
+</div>
+<p>
+	<strong>10、如何设置span的宽度和高度（即如何设置内联元素的宽高）？</strong>
+</p>
+<p class="shili">
+	span{display:block;width:200px;height:100px;}
+</p>
+<p>
+	/* 要使内联元素可以设置宽高，只需将其定义为块级或者内联块级元素即可。所以方法非常多样，既可以设置display属性，也可以设置float属性，或者position属性等等。 */
+</p>
+<p>
+	<strong>11、如何去掉超链接的虚线框？</strong>
+</p>
+<p class="shili">
+	a{outline:none;}
+</p>
+<p>
+	<strong>12、如何容器透明，内容不透明？</strong>
+</p>
+<div class="shili">
+	<p>
+		.outer{width:200px;height:200px;background:rgba(0,0,0,.2);background:#000\9;filter:alpha(opacity=20)\9;}
+	</p>
+	<p>
+		.outer .inner{position:relative\9;}<span class="Apple-tab-span"> </span>
+	</p>
+	<p>
+		<br />
+	</p>
+	<div class="outer">
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span>
+		</p>
+		<div class="inner">
+			我是不透明的内容
+		</div>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+	</div>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 高级浏览器直接使用rgba颜色值实现；IE浏览器在定义容器透明的同时，让子节点相对定位，也可达到效果 */
+	</p>
+</div>
+<p>
+	<strong>13、如何做1像素细边框的table？</strong>
+</p>
+<p>
+	方法1：
+</p>
+<div class="shili">
+	<p>
+		#test{border-collapse:collapse;border:1px solid #ddd;}
+	</p>
+	<p>
+		#test th,#test td{border:1px solid #ddd;}
+	</p>
+	<p>
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span>
+		</p>
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span>
+		</p>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+		<table id="test">
+			<tbody>
+				<tr>
+					<th>
+						姓名
+					</th>
+					<td>
+						Joy Du
+					</td>
+				</tr>
+				<tr>
+					<th>
+						年龄
+					</th>
+					<td>
+						26
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</p>
+</div>
+<p>
+	方法2：
+</p>
+<div class="shili">
+	<p>
+		#test{border-spacing:1px;background:#ddd;}
+	</p>
+	<p>
+		#test tr{background:#fff;}
+	</p>
+	<p>
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span>
+		</p>
+		<p>
+			<br />
+		</p>
+		<p>
+			<span class="Apple-tab-span"> </span>
+		</p>
+		<p>
+			<br />
+		</p>
+		<p>
+			<br />
+		</p>
+		<table id="test" cellspacing="1">
+			<tbody>
+				<tr>
+					<th>
+						姓名
+					</th>
+					<td>
+						Joy Du
+					</td>
+				</tr>
+				<tr>
+					<th>
+						年龄
+					</th>
+					<td>
+						26
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</p>
+	<p>
+		/* IE7及更早浏览器不支持border-spacing属性，但是可以通过table的标签属性cellspacing来替代。*/
+	</p>
+</div>
+<p>
+	<strong>14、如何让层在falsh上显示？</strong>
+</p>
+<p class="shili">
+	<br />
+</p>
+<p>
+	<strong>15、如何使用标准的方法在页面上插入flash？</strong>
+</p>
+<div class="shili">
+	<p>
+		<br />
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span>
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span>
+	</p>
+	<p>
+		<span class="Apple-tab-span"> </span><img src="*.jpg" alt="用于不支持flash或屏蔽flash时显示" />
+	</p>
+	<p>
+		<br />
+	</p>
+	<p>
+		/* 至于flash的宽高可以在css里设置 */
+	</p>
+</div>',article_time='1492704000',artcate_id='5' WHERE article_id = 11 ; ERROR: 0 
+[2017/05/09 08:18:51]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:51]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:51]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:18:55]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:55]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:55]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 08:18:58]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:58]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:18:58]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 25,5 ; ERROR: 0 
+[2017/05/09 08:19:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:00]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:00]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 20,5 ; ERROR: 0 
+[2017/05/09 08:19:06]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:06]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:06]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 15,5 ; ERROR: 0 
+[2017/05/09 08:19:29]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:29]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:29]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 10,5 ; ERROR: 0 
+[2017/05/09 08:19:33]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:33]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:33]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 08:19:43]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:43]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:43]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 25,5 ; ERROR: 0 
+[2017/05/09 08:19:50]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:50]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/09 08:19:50]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:19:53]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:19:53]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 4 ; ERROR: 0 
+[2017/05/09 08:19:53]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 4 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 08:22:07]  SELECT COUNT(*)  AS c FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 08:22:07]  SELECT * FROM pre_artcate WHERE 1 ORDER BY artcate_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:11:33]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 12:11:36]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:11:36]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 12:11:36]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:11:41]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:11:41]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 12:11:41]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 12:11:44]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:28]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:28]  insert into `pre_article`(`article_title`,`article_desc`,`article_content`,`article_time`,`artcate_id`,`article_img`) value('qwertyui','<em>juyhtgrfedwsa</em>','<p>
+	<span style="color:#E53333;">ikujyhtgrfedwsqa</span>
+</p>
+<p>
+	kmjnhbgvfdcsxaz
+</p>
+<p>
+	<strong>KMJNHBGVFCDXSZA</strong>
+</p>
+<h1>
+	87654321`
+</h1>
+<p>
+	ujytrfew
+</p>','1495123200','2','uploads/201705091212282022.jpg') ; ERROR: 0 
+[2017/05/09 12:12:31]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:31]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:31]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:12:45]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:45]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time > 1494518400 ; ERROR: 0 
+[2017/05/09 12:12:45]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time > 1494518400 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:12:50]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:50]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494518400 AND 1495036800 ; ERROR: 0 
+[2017/05/09 12:12:50]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494518400 AND 1495036800 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:12:54]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:54]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time BETWEEN 1494518400 AND 1495036800 ; ERROR: 0 
+[2017/05/09 12:12:54]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time BETWEEN 1494518400 AND 1495036800 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:12:56]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:56]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time > 1494518400 ; ERROR: 0 
+[2017/05/09 12:12:56]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time > 1494518400 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:12:59]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:59]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 12:12:59]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:13:00]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 12:13:00]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/09 12:13:00]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:13:11]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 12:13:11]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:13:14]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/09 12:13:14]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 12:13:21]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE mood_time > 1493740800 ; ERROR: 0 
+[2017/05/09 12:13:21]  SELECT * FROM pre_moodlist WHERE art.mood_time > 1493740800 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR:  Unknown column 'art.mood_time' in 'where clause'
+[2017/05/09 12:13:29]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/09 12:13:29]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:43:30]  SELECT * FROM pre_admin WHERE admin_name = 'admin' AND admin_pwd = 'e10adc3949ba59abbe56e057f20f883e' ; ERROR: 0 
+[2017/05/09 13:43:32]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:43:32]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 13:43:32]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:43:35]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:43:35]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 13:43:35]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:43:38]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:23]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:23]  insert into `pre_article`(`article_title`,`article_desc`,`article_content`,`article_time`,`artcate_id`,`article_img`) value('uyhtgf','<p>
+	jnyhbtgvrcedxwszqa
+</p>
+<p>
+	nybtvrcedxws
+</p>
+<p>
+	jh gbvfcedxwq&nbsp; &nbsp; kumjynhtbgvrcedwxsqza&nbsp;&nbsp;&nbsp;&nbsp;
+</p>','<p>
+	ujynhtg<strong>vrfedwsqa,ikmujnyhtbgvrfceds</strong>
+</p>
+<h1>
+	mnjhbtgvfcedxwsza78654321`<br />
+nhbgvfedw76
+</h1>
+<p>
+	<span style="color:#E53333;">87654321`</span>
+</p>','1493913600','4','uploads/201705090144233371.jpg') ; ERROR: 0 
+[2017/05/09 13:44:26]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:26]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:26]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:44:30]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:30]  SELECT * FROM pre_article WHERE article_id = 34 ; ERROR: 0 
+[2017/05/09 13:44:40]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:40]  SELECT * FROM pre_article WHERE article_id = 34 ; ERROR: 0 
+[2017/05/09 13:44:40]  UPDATE pre_article SET article_title='uyhtgf',article_desc='<p>
+	jnyhbtgvrcedxwszqa
+</p>
+<p>
+	nybtvrcedxws
+</p>
+<p>
+	jh gbvfcedxwq&nbsp; &nbsp; kumjynhtbgvrcedwxsqza&nbsp;&nbsp;&nbsp;&nbsp;
+</p>',article_content='<p>
+	ujynhtg<strong>vrfedwsqa,ikmujnyhtbgvrfceds</strong> 
+</p>
+<h1>
+	mnjhbtgvfcedxwsza78654321`<br />
+nhbgvfedw76
+</h1>
+<p>
+	<span style="color:#E53333;">87654321`</span> 
+</p>',article_time='1493827200',artcate_id='4' WHERE article_id = 34 ; ERROR: 0 
+[2017/05/09 13:44:42]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:42]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:42]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:44:47]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:47]  SELECT COUNT(*) AS c FROM pre_article WHERE article_time > 1493827200 ; ERROR: 0 
+[2017/05/09 13:44:47]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.article_time > 1493827200 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:44:52]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:52]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:52]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:44:55]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:55]  SELECT COUNT(*) AS c FROM pre_article WHERE artcate_id = 5 ; ERROR: 0 
+[2017/05/09 13:44:55]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE art.artcate_id = 5 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:44:59]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 13:44:59]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:45:07]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE guestB_name = 'sdfgh' ; ERROR: 0 
+[2017/05/09 13:45:07]  SELECT * FROM pre_guestbook WHERE guestB_name = 'sdfgh' ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:45:13]  DELETE FROM pre_guestbook WHERE guestB_id IN (11) ; ERROR: 0 
+[2017/05/09 13:45:16]  SELECT COUNT(*) AS c FROM pre_guestbook WHERE 1 ; ERROR: 0 
+[2017/05/09 13:45:16]  SELECT * FROM pre_guestbook WHERE 1 ORDER BY guestB_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:45:18]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/09 13:45:18]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:45:22]  DELETE FROM pre_moodlist WHERE mood_id=17 ; ERROR: 0 
+[2017/05/09 13:45:25]  SELECT COUNT(*) AS c FROM pre_moodlist WHERE 1 ; ERROR: 0 
+[2017/05/09 13:45:25]  SELECT * FROM pre_moodlist WHERE 1 ORDER BY mood_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:45:29]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/09 13:45:29]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:45:34]  SELECT COUNT(*)  AS c FROM pre_link WHERE 1 ; ERROR: 0 
+[2017/05/09 13:45:34]  SELECT * FROM pre_link WHERE 1 ORDER BY link_id DESC  LIMIT 5,5 ; ERROR: 0 
+[2017/05/09 13:45:37]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/09 13:45:37]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:46:11]  insert into `pre_admin`(`admin_name`,`admin_pwd`,`admin_site`,`admin_nickname`,`admin_email`,`admin_qq`,`admin_img`) value('root','63a9f0ea7bb98050796b649e85481845','htgrfedwq','uuuuuuuuu','6543ewq@qq.com','876543265432','uploads/201705090146114580.jpg') ; ERROR: 0 
+[2017/05/09 13:46:14]  SELECT COUNT(*) AS c FROM pre_admin WHERE 1 ; ERROR: 0 
+[2017/05/09 13:46:14]  SELECT * FROM pre_admin WHERE 1 ORDER BY admin_id DESC  LIMIT 0,5 ; ERROR: 0 
+[2017/05/09 13:46:19]  SELECT * FROM pre_artcate WHERE 1 ; ERROR: 0 
+[2017/05/09 13:46:19]  SELECT COUNT(*) AS c FROM pre_article WHERE 1 ; ERROR: 0 
+[2017/05/09 13:46:19]  SELECT * FROM pre_article AS art LEFT JOIN pre_artcate AS artcate ON art.artcate_id =  artcate.artcate_id WHERE 1 ORDER BY art.article_id DESC  LIMIT 0,5 ; ERROR: 0 

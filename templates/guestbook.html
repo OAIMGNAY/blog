@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="">
+<title>My-Blog</title>
+<link href="static/css/styles.css" rel="stylesheet">
+<link href="static/css/view.css" rel="stylesheet">
+<link rel="stylesheet" href="static/css/Guesbook.css" />
+<!-- 返回顶部调用 begin -->
+<link href="static/css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="static/js/jquery.js"></script>
+<script type="text/javascript" src="static/js/js.js"></script>
+<!-- 返回顶部调用 end-->
+<style type="text/css">
+.pics ul li img {
+	width: 67px; height: 67px; border: #111 solid 1px; 
+}
+</style>
+</head>
+<body>
+<{include file="header.html"}>
+<!--header end-->
+<div id="board">
+	<div class="msgBoard">
+		<div class="entry-header">
+			<h1 class="entry-title title1">留言板</h1>
+		</div>
+		<div class=" entry-content">
+			<div class="buy">
+				<p>大家有任何事都可在此留言。</p>
+				<p>若有何不方便可点此：
+					<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=QHF2cHZxd3J3eXcAMTFuIy8t" target="_blank" style="text-decoration:none;">给我写信</a>
+				</p>
+				<p>如要申请友链，请留言！</p>
+			</div>
+		</div>
+		<!--评论区-->
+		<div class="comment">
+				<h2>发表留言</h2>
+		 	 	<p>电子邮件地址不会被公开。 必填项已用*标注</p>
+		 	 	<form method="post" action="guestbook.php">
+			    	<div>
+				    	<span><label>SUBJECT</label></span>
+				    	<span><textarea class="check_cont" name="guestB_cont" placeholder="Message..."></textarea></span>
+						<span style="color: red;" class="tips_cont"></span>
+				    </div>
+			    	<div>
+				    	<span><label>NAME</label></span>
+				    	<span><input class="check_name" name="guestB_name" type="text" placeholder="Name *" class="textbox"></span>
+				    	<span style="color: red;" class="tips_name"></span>
+				    </div>
+				    <div>
+				    	<span><label>E-MAIL</label></span>
+				    	<span><input class="check_email" name="guestB_email" type="text" placeholder="Email *" class="textbox"></span>
+				    	<span style="color: red;" class="tips_email"></span>
+				    </div>
+				    <div>
+				     	<span><label>website</label></span>
+				    	<span><input name="guestB_site" type="text" class="textbox"></span>
+				    </div>
+				   <div>
+				   		<input type="submit" class="" value="发表">
+				  </div>
+			  </form>
+		</div>
+		<!--评论区 End-->
+	</div>
+	
+	<div class="boardRg">
+		<div class="links">
+	      <h2>友情链接</h2>
+	      <ul>
+	        <li><a href="#">个人博客</a></li>
+	        <li><a href="#">个人博客</a></li>
+	        <li><a href="#">个人博客</a></li>
+	        <li><a href="#">个人博客</a></li>
+	      </ul>
+	    </div>
+
+	    <div class="flickr pics">
+	      <h2>摄影作品</h2>
+	      <ul>
+	        <li><a href="#"><img src="static/images/06.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/02.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/03.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/04.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/05.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/06.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/07.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/08.jpg"></a></li>
+	        <li><a href="#"><img src="static/images/09.jpg"></a></li>
+	      </ul>
+	    </div>
+  
+	</div>
+</div>
+
+<!--mainbody end-->
+<footer>
+
+  <div class="footer-bottom">
+    <p>Copyright 2017 Design by <a href="#">My-Blog</a></p>
+  </div>
+</footer>
+<!-- jQuery仿腾讯回顶部和建议 代码开始 -->
+<div id="tbox"><a id="gotop" href="javascript:void(0)"></a> </div>
+<!-- 代码结束 -->
+</body>
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".check_cont").blur(function(){
+		if ($(this).val() == "") {
+			$(".tips_cont").html("请输入内容");
+		}
+	});
+
+	$(".check_name").blur(function(){
+		if ($(this).val() == "") {
+			$(".tips_name").html("输入不能为空");
+		}
+	});
+
+	$(".check_email").blur(function(){
+		if ($(this).val() == "") {
+			$(".tips_email").html("email 值不能为空");
+		}
+	});
+
+});
+</script>
